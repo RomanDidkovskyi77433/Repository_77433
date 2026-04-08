@@ -1,1 +1,65 @@
+/* Zmiana fontu i tła */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f7f4; 
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
 
+main, header, footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Zielony kolor przewodni */
+h1, h2, h3 {
+    color: #2e8b57;
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: none; 
+}
+
+/* Zaokrąglone kąty i delikatne cienie */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px; 
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+header img {
+    border-radius: 50%; 
+    border: 3px solid #2e8b57;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+section {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 6px solid #2e8b57; 
+}
+
+a {
+    color: #2e8b57;
+    text-decoration: none; 
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1e5c3a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
