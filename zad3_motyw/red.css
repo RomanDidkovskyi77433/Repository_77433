@@ -1,1 +1,66 @@
+/* Zmiana fontu i tła */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f0; 
+    color: #222;
+    line-height: 1.7;
+    margin: 0;
+    padding: 30px;
+}
 
+main, header, footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Czerwony kolor przewodni i inny font dla nagłówków  */
+h1, h2, h3 {
+    color: #c0392b; 
+    font-family: 'Times New Roman', Times, serif; 
+    text-transform: uppercase; 
+}
+
+/* Ostre kąty i grube obramowanie na górze */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 8px solid #c0392b; 
+    margin-bottom: 30px;
+    border-radius: 0; 
+    box-shadow: 0 5px 15px rgba(192, 57, 43, 0.2);
+}
+
+header img {
+    border-radius: 10%;
+    border: 4px solid #c0392b;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px 30px;
+    margin-bottom: 25px;
+    border-top: 4px solid #c0392b; 
+    border-radius: 0; 
+    box-shadow: 0 5px 15px rgba(192, 57, 43, 0.1);
+}
+
+a {
+    color: #c0392b;
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.85em;
+    color: #999;
+}
