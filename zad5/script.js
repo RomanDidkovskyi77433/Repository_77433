@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showError(email, "error-email", "Pole E-mail jest wymagane.");
             isValid = false;
         } else if (!emailRegex.test(email.value)) {
-            showError(email, "error-email", "Podaj poprawny adres e-mail (np. jan@kowalski.pl).");
+            showError(email, "error-email", "Podaj poprawny adres e-mail (np. blablabla@gmail.com).");
             isValid = false;
         }
 
