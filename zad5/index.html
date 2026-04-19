@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Roman Didkovskyi</title>
+    <link id="theme-style" rel="stylesheet" href="green.css">
+</head>
+<body>
 
+    <header>
+        <h1>Roman Didkovskyi - CV</h1> 
+        <p>Numer indeksu: <strong>77433</strong></p>
+        
+        <img src="zdjęcie.jpg" alt="Zdjęcie profilowe Romana Didkovskiego" width="150"><br>
+        
+        <button id="themeBtn">Zmień na czerwony motyw</button>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>Miasto: Warszawa</p>
+            <p>E-mail: <a href="mailto:rdidkovvvi1@gmail.com">rdidkovvvi1@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+48987007582">+48 987 007 582</a></p>
+            
+            <p>Moje profile:</p>
+            <ul>
+                <li><a href="https://github.com/RomanDidkovskyi77433" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/roman-didkovskyi-7a6b193b9" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>O mnie</h2>
+            <p>Jestem studentem informatyki, interesuję się programowaniem webowym. Uczę się tworzyć pierwsze projekty w nieznanych językach i spróbuję stworzyć swój pierwszy trudny projekt.</p>
+        </section>
+
+        <section>
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Znajomość HTML, Python</li>
+                <li>Podstawy języka C#, SQL</li>
+                <li>Rozwiązywanie problemów algorytmicznych</li>
+                <li>Znajomość języków: polski, ukraiński</li>
+                <li>Znajomość języka angielskiego na poziomie komunikatywnym</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie <button id="toggleBtn" style="margin-left: 15px;">Ukryj / Pokaż sekcję</button></h2>
+            
+            <div id="doswiadczenie-tresc">
+                <article>
+                    <h3>Twórca gier i stron</h3>
+                    <p>Pomagałem tworzyć strony internetowe i gry na platformie UNITY.</p>
+                </article>
+                <article>
+                    <h3>Wsparcie organizacyjne</h3>
+                    <p>Brałem udział w organizacji różnych wydarzeń społecznych i edukacyjnych.</p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Edukacja</h2>
+            <p><strong>Uczelnia Vistula</strong></p>
+            <p>Kierunek: Informatyka</p>
+            <p>Lata nauki: 2025 - obecnie</p>
+        </section>
+
+        <section>
+            <h2>Projekty</h2>
+            <ul>
+                <li><strong>CV w HTML</strong> - Stworzenie prostej strony internetowej na zajęcia z wprowadzenia do technologii internetowych.</li>
+                <li><strong>Projekty akademickie</strong> - Tworzenie pierwszych skryptów w ramach zajęć laboratoryjnych.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Formularz kontaktowy</h2>
+            <form id="contactForm" novalidate>
+                <div>
+                    <label for="imie">Imię:</label>
+                    <input type="text" id="imie" name="imie">
+                    <span class="error-msg" id="error-imie"></span>
+                </div>
+                <div>
+                    <label for="nazwisko">Nazwisko:</label>
+                    <input type="text" id="nazwisko" name="nazwisko">
+                    <span class="error-msg" id="error-nazwisko"></span>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                    <span class="error-msg" id="error-email"></span>
+                </div>
+                <div>
+                    <label for="wiadomosc">Wiadomość:</label>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="4"></textarea>
+                    <span class="error-msg" id="error-wiadomosc"></span>
+                </div>
+                <button type="submit">Wyślij wiadomość</button>
+                <div id="form-success" class="success-msg">Wiadomość została zwalidowana poprawnie! (brak backendu)</div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Roman Didkovskyi. Projekt wykonany samodzielnie.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
