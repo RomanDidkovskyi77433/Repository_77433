@@ -1,1 +1,19 @@
-
+{
+  "umiejetnosci": [
+    "Znajomość HTML, Python",
+    "Podstawy języka C#, SQL",
+    "Rozwiązywanie problemów algorytmicznych",
+    "Znajomość języków: polski, ukraiński",
+    "Znajomość języka angielskiego na poziomie komunikatywnym"
+  ],
+  "projekty": [
+    {
+      "tytul": "CV w HTML",
+      "opis": "Stworzenie prostej strony internetowej na zajęcia z wprowadzenia do technologii internetowych."
+    },
+    {
+      "tytul": "Projekty akademickie",
+      "opis": "Tworzenie pierwszych skryptów w ramach zajęć laboratoryjnych."
+    }
+  ]
+}
